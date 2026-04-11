@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Ask a question or get help
+    url: https://github.com/Get-Coral/.github/discussions/categories/help
+    about: Use GitHub Discussions for support questions — keeps issues clean for bugs and features.
+  - name: 💡 Start a module idea discussion
+    url: https://github.com/Get-Coral/.github/discussions/categories/module-ideas
+    about: Not sure if your idea qualifies as a module? Start a discussion first.

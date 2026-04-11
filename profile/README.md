@@ -5,10 +5,11 @@
 ### A reef of independent Docker modules that extend Jellyfin with modern UX.
 ### Each one alive on its own — thriving together.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-coral.svg?style=flat-square&color=ff6b6b)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-ff6b6b?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-ghcr.io%2Fget--coral-2dd4bf?style=flat-square&logo=docker&logoColor=white)](https://github.com/orgs/Get-Coral/packages)
-[![Website](https://img.shields.io/badge/Website-getcoral.dev-ff6b6b?style=flat-square)](https://getcoral.dev)
-[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-2dd4bf?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/ElianCodes)
+[![npm](https://img.shields.io/badge/npm-%40get--coral-ff6b6b?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/org/get-coral)
+[![Website](https://img.shields.io/badge/Website-getcoral.dev-2dd4bf?style=flat-square)](https://getcoral.dev)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff6b6b?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/ElianCodes)
 
 ---
 
@@ -17,12 +18,17 @@
 | Module | What it does | Status |
 |--------|-------------|--------|
 | [🎬 Aurora](https://github.com/Get-Coral/aurora) | High-end cinematic Jellyfin frontend | 🟢 In Progress |
-| [🎤 KAPOW!](https://github.com/Get-Coral/kapow) | Karaoke queue manager for bars & events | 🟡 MVP Built |
+| [🎤 KAPOW!](https://github.com/Get-Coral/KAPOW) | Karaoke queue manager for bars & events | 🟡 MVP Built |
 | [📖 Fathom](https://github.com/Get-Coral/fathom) | Modern reading app from your NAS | ⚪ Planned |
 | [📺 Marquee](https://github.com/Get-Coral/marquee) | Ambient now-playing display | ⚪ Planned |
 | [🎶 Encore](https://github.com/Get-Coral/encore) | Guest media request system | ⚪ Planned |
 | [🗂️ Librarian](https://github.com/Get-Coral/librarian) | Smart media management layer | ⚪ Planned |
-| [🎞️ Reel](https://github.com/Get-Coral/reel) | Synchronized watch parties | ⚪ Planned |
+
+## Shared Packages
+
+| Package | What it does | Status |
+|---------|-------------|--------|
+| [📦 @get-coral/jellyfin](https://github.com/Get-Coral/jellyfin) | TypeScript Jellyfin API client | 🟢 Published |
 
 ---
 
@@ -33,8 +39,6 @@
 **🪸 Jellyfin as source of truth** — Modules never share a database. Communication happens through the Jellyfin API.
 
 **🔓 MIT forever** — No paid tier, no SaaS, no cloud dependency. Sponsor if it brings you value.
-
-</div>
 
 ---
 
@@ -55,16 +59,14 @@ services:
 
 ---
 
-<div align="center">
-
 ## Contributing
 
 All modules are open to contributions. Each repo has its own `CONTRIBUTING.md`.
-Found a bug across modules? Open an issue in the relevant repo.
-Have an idea for a new module? Start a discussion in this repo.
+Found a bug? Open an issue in the relevant module repo.
+Have a module idea? Start a [discussion](https://github.com/Get-Coral/.github/discussions).
 
 ---
 
-<sub>Built by <a href="https://elian.codes">@ElianCodes</a> · Originally born at Comic Sans bar in Ghent 🍺</sub>
+<sub>Built by <a href="https://elian.codes">@ElianCodes</a> · Born at Comic Sans bar in Ghent 🍺</sub>
 
 </div>

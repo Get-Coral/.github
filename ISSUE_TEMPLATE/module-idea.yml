@@ -1,0 +1,60 @@
+name: 🪸 New Module Idea
+description: Propose a brand new module for the Coral ecosystem
+labels: ["module-idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A Coral module must satisfy these rules before it qualifies:
+        - **Independently useful** — runs without any other Coral module
+        - **Jellyfin API native** — talks directly to a Jellyfin server
+        - **Docker native** — ships as a container with a `docker-compose.yml`
+
+        If your idea depends on another module to function, it's probably a feature request for that module instead.
+
+  - type: input
+    id: name
+    attributes:
+      label: Proposed module name
+      placeholder: e.g. Marquee, Encore
+    validations:
+      required: true
+
+  - type: textarea
+    id: oneliner
+    attributes:
+      label: One-liner
+      description: Describe it in one sentence.
+      placeholder: e.g. Ambient now-playing display for any TV connected to your Jellyfin server.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+      description: Who needs this and why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: independence
+    attributes:
+      label: Why is it a standalone module and not a feature of an existing one?
+      description: Explain why this can't live inside Aurora, KAPOW!, or another existing module.
+    validations:
+      required: true
+
+  - type: textarea
+    id: jellyfin
+    attributes:
+      label: How does it use the Jellyfin API?
+      description: Which endpoints or data does it need from Jellyfin?
+    validations:
+      required: true
+
+  - type: textarea
+    id: features
+    attributes:
+      label: Core features
+      description: What would v1.0 include?
