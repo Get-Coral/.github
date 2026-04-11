@@ -40,6 +40,8 @@
 
 **🔓 MIT forever** — No paid tier, no SaaS, no cloud dependency. Sponsor if it brings you value.
 
+</div>
+
 ---
 
 ## Get Started
@@ -58,6 +60,8 @@ services:
 ```
 
 ---
+
+<div align="center">
 
 ## Contributing
 
