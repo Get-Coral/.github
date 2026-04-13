@@ -26,9 +26,12 @@
 
 ## Shared Packages
 
-| Package | What it does | Status |
-|---------|-------------|--------|
-| [📦 @get-coral/jellyfin](https://github.com/Get-Coral/jellyfin) | TypeScript Jellyfin API client | 🟢 Published |
+| Package | What it does |
+|---------|-------------|
+| [📦 create-coral](https://www.npmjs.com/package/create-coral) | Scaffold a new Coral module from the official template |
+| [📦 @get-coral/jellyfin](https://www.npmjs.com/package/@get-coral/jellyfin) | TypeScript Jellyfin API client |
+| [📦 @get-coral/biome-config](https://www.npmjs.com/package/@get-coral/biome-config) | Shared Biome configuration for Coral repositories |
+| [📦 @get-coral/tsconfig](https://www.npmjs.com/package/@get-coral/tsconfig) | Shared TypeScript configuration for Coral repositories |
 
 ---
 
