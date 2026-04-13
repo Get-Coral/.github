@@ -19,6 +19,7 @@
 |--------|-------------|--------|
 | [🎬 Aurora](https://github.com/Get-Coral/aurora) | High-end cinematic Jellyfin frontend | 🟢 In Progress |
 | [🎤 KAPOW!](https://github.com/Get-Coral/KAPOW) | Karaoke queue manager for bars & events | 🟡 MVP Built |
+| [🌊 Tide](https://github.com/Get-Coral/tide) | Torrent downloads with a calmer control surface | 🟢 Shipping |
 | [📖 Fathom](https://github.com/Get-Coral/fathom) | Modern reading app from your NAS | ⚪ Planned |
 | [📺 Marquee](https://github.com/Get-Coral/marquee) | Ambient now-playing display | ⚪ Planned |
 | [🎶 Encore](https://github.com/Get-Coral/encore) | Guest media request system | ⚪ Planned |
