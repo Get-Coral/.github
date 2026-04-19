@@ -10,6 +10,7 @@
 [![npm](https://img.shields.io/badge/npm-%40get--coral-ff6b6b?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/org/get-coral)
 [![Website](https://img.shields.io/badge/Website-getcoral.dev-2dd4bf?style=flat-square)](https://getcoral.dev)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff6b6b?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/ElianCodes)
+[![Discord](https://img.shields.io/discord/1495441903297237043?label=Discord&logo=discord&logoColor=white&color=5865F2&style=flat-square)](https://discord.gg/M3wzFpGbzp)
 
 ---
 
